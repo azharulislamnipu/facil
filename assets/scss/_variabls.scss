@@ -1,23 +1,68 @@
-// Font Family
-$poppins: 'Poppins', sans-serif;
-$roboto: 'Roboto', sans-serif;
-
-
 // text Colors ---------------
 
 $black: #000000;
+$dark: #262626;
+$midnight: #282828;
+$dark-light: #636363;
 $white: #ffffff;
-$gray: #f1f1f1;
-$red: #f6f7f8;
-$green: #f6f7f8;
-
+$platinum: #b7b7b7;
+$gray: #b1b1b1;
+$azure: #f0f9f9;
+$sky-blue: #429edf;
+$whitesmoke: #f0f2f9;
+$ghostwhite: #f0f1f5;
+$red: #df4243;
+$blue: #207fc9;
+$yellow: #fffd31;
+$green: #0fce2a;
 
 
 
 // Theme Color
-$theme-color: #ff3535;
+$theme-color: #d25b5b;
 
 
+/*--------------- Font family Variables ---------------*/
+$nunito: 'Nunito Sans', sans-serif;
+$montserrat: 'Montserrat', sans-serif;
+$assetPath : "../assets";
+
+    /*--------------- Font size Variables ---------------*/
+$font-size-base:16px;
+$font-18:ceil($font-size-base*1.125);
+$font-20:ceil($font-size-base*1.25);
+$font-22:ceil($font-size-base*1.375);
+$font-24:ceil($font-size-base*1.5);
+$font-26:ceil($font-size-base*1.625);
+$font-28:ceil($font-size-base*1.75);
+$font-30:ceil($font-size-base*1.875);
+$font-32:ceil($font-size-base*2);
+$font-34:ceil($font-size-base*2.125);
+$font-36:ceil($font-size-base*2.25);
+$font-38:ceil($font-size-base*2.375);
+$font-40:ceil($font-size-base*2.5);
+$font-42:ceil($font-size-base*2.625);
+$font-44:ceil($font-size-base*2.75);
+$font-46:ceil($font-size-base*2.875);
+$font-48:ceil($font-size-base*3);
+$font-50:ceil($font-size-base*3.125);
+$font-52:ceil($font-size-base*3.25);
+$font-54:ceil($font-size-base*3.375);
+$font-56:ceil($font-size-base*3.5);
+$font-58:ceil($font-size-base*3.625);
+$font-60:ceil($font-size-base*3.75);
+
+
+    /*--------------- Font weight Variables ---------------*/
+$thin:100;
+$extra-light:200;
+$light:300;
+$regular:400;
+$medium:500;
+$semi-bold:600;
+$bold:700;
+$extra-bold:800;
+$black:900;
 
 // Responsive Variables 
 $xx-layout : 'only screen and (min-width: 1366px) and (max-width: 1600px)';
@@ -25,6 +70,7 @@ $xl-layout : 'only screen and (min-width: 1200px) and (max-width: 1365px)';
 $lg-layout : 'only screen and (min-width: 992px) and (max-width: 1199px)';
 $md-layout:'only screen and (min-width: 768px) and (max-width: 991px)';
 $xs-layout:'only screen and (max-width: 767px)';
+$xss-layout : 'only screen and (max-width: 480px)';
 $sm-layout: 'only screen and (min-width: 576px) and (max-width: 767px)';
 
 

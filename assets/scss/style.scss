@@ -9,7 +9,8 @@
     ===================
 	
     1. Template default CSS
-    2. slick style
+    2. Color style
+    3. Slick style
     3. Slider style
     4. Banner style
     5. Secting title style
@@ -35,5 +36,6 @@
 -----------------------------------------------------------------------------------*/
 @import 'variabls';
 @import 'common';
+@import 'colors';
 @import 'slick';
 @import 'about-us';

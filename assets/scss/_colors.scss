@@ -1,0 +1,35 @@
+/*  2. Color Style CSS
+/*----------------------------------------*/
+.bg-theme-red{
+  background-color: $theme-color;
+}
+.bg-theme-blue{
+  background-color: $sky-blue;
+}
+.bg-theme-green{
+  background-color: $green;
+}
+.bg-theme-yellow{
+  background-color: $yellow;
+}
+.bg-whitesmoke{
+  background-color: $whitesmoke;
+}
+.bg-ghostwhite{
+  background-color: $ghostwhite;
+}
+.red-text{
+  color:$theme-color
+}
+.black-text{
+  color:$dark
+}
+.dark-light-text{
+  color:$dark-light
+}
+.white-text{
+  color: $white;
+}
+.midnight-text{
+  color: $midnight;
+}
