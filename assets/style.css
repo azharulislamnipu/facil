@@ -2,7 +2,7 @@
  Template Name: Bootstrap 4 Template Version: 1
 
 -----------------------------------------------------------------------------------  CSS INDEX ===================
-	 1. Template default CSS 2. Color style 3. Slick style 3. Slider style 4. Banner style 5. Secting title style 6. Product style 7. Testimonial style 8. Feature style 9. Blog style 10. Footer style 11. Instagram style 12. Breadcrumb style 13. Shop style 14. Sidebar style 15. Product details style 16. Cart style 17. Login register style 18. Blog details style 19. About us style 20. Contact us style 21. Compare style 22. Checkout style 23. My account style 
+	 1. Template default CSS 2. Color style 3. Slick style 4. Top bar style 4. Banner style 5. Secting title style 6. Product style 7. Testimonial style 8. Feature style 9. Blog style 10. Footer style 11. Instagram style 12. Breadcrumb style 13. Shop style 14. Sidebar style 15. Product details style 16. Cart style 17. Login register style 18. Blog details style 19. About us style 20. Contact us style 21. Compare style 22. Checkout style 23. My account style 
 -----------------------------------------------------------------------------------*/
 /*--------------- Font family Variables ---------------*/
 /*--------------- Font size Variables ---------------*/
@@ -64,6 +64,8 @@ ul { list-style: outside none none; margin: 0; padding: 0; }
 
 /*--  - Common Classes
 -----------------------------------------*/
+.container { max-width: 1800px; }
+
 .fix { overflow: hidden; }
 
 .clear { clear: both; }
@@ -91,6 +93,8 @@ ul { list-style: outside none none; margin: 0; padding: 0; }
 .font-weight-extra-bold { font-weight: 800; }
 
 .font-weight-black { font-weight: 900; }
+
+.select2-container--open .select2-selection__arrow .icofont-simple-down:before { content: "\eab9"; }
 
 /************************* Basic margin padding
 *************************/
@@ -674,6 +678,14 @@ textarea:focus { background: transparent; border: 2px solid #4FC1F0; outline: no
 
 .midnight-text { color: #282828; }
 
+.red-text-hover:hover { color: #d25b5b; }
+
+.blue-text-hover:hover { color: #429edf; }
+
+.green-text-hover:hover { color: #0fce2a; }
+
+.yellow-text-hover:hover { color: #fffd31; }
+
 /*  3. Slick slider CSS
 /*----------------------------------------*/
 .slick-slider { position: relative; display: block; box-sizing: border-box; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; -ms-touch-action: pan-y; touch-action: pan-y; -webkit-tap-highlight-color: transparent; }
@@ -699,6 +711,19 @@ textarea:focus { background: transparent; border: 2px solid #4FC1F0; outline: no
 .slick-vertical .slick-slide { display: block; height: auto; border: 1px solid transparent; }
 
 .slick-arrow.slick-hidden { display: none; }
+
+/*  4. Tob bar Style CSS
+/*----------------------------------------*/
+.top-bar { position: relative; overflow: hidden; }
+.top-bar p, .top-bar a { font-size: 12px; }
+.top-bar .select2-container .select2-selection--single .select2-selection__rendered { font-family: "Montserrat", sans-serif; font-size: 12px; }
+
+.border-bottom-1 { border-bottom: 1px solid #ebebeb; }
+
+@media only screen and (max-width: 767px) { .call-info, .offer-info { margin-bottom: 10px; } }
+
+.language-wrapper .select2-container--default .select2-selection--single { border: 0; box-shadow: none; border-radius: 0; }
+.language-wrapper ul.select2-results__options .select2-results__option { font-family: "Montserrat", sans-serif; font-size: 12px; }
 
 /*-------- 19. About us style ---------*/
 

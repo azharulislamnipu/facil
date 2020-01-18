@@ -11,7 +11,7 @@
     1. Template default CSS
     2. Color style
     3. Slick style
-    3. Slider style
+    4. Top bar style
     4. Banner style
     5. Secting title style
     6. Product style
@@ -38,4 +38,5 @@
 @import 'common';
 @import 'colors';
 @import 'slick';
+@import 'top-bar';
 @import 'about-us';

@@ -133,7 +133,9 @@ ul {
 /*-- 
     - Common Classes
 -----------------------------------------*/
-
+.container{
+    max-width: 1800px;
+}
 .fix {
     overflow: hidden
 }
@@ -184,6 +186,12 @@ ul {
 }
 .font-weight-black{
     font-weight: $black;
+}
+
+.select2-container--open  .select2-selection__arrow{
+    .icofont-simple-down:before {
+        content: "\eab9";
+    }
 }
 
 /*************************
@@ -1344,10 +1352,6 @@ textarea:focus {
 .input-group.divcenter.input-group .form-control {
     padding-left: 0px
 }
-
-
-
-
 
 /*--
     - Background Color

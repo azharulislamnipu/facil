@@ -33,3 +33,26 @@
 .midnight-text{
   color: $midnight;
 }
+
+.red-text-hover{
+  &:hover{
+    color:$theme-color
+  }
+}
+.blue-text-hover{
+  &:hover{
+    color:$sky-blue;
+  }
+}
+
+.green-text-hover{
+  &:hover{
+    color:$green;
+  }
+}
+
+.yellow-text-hover{
+  &:hover{
+    color:$yellow;
+  }
+}
